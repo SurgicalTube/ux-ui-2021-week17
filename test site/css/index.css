@@ -12,15 +12,15 @@ nav {
 .left{
 height: 500px;
 float: left;
-background-color: lightblue;
-width: 30%;
-text-align: center;
+background-color: blue;
+width: 29%;
+display: block;
 }
 /* target the class of .right below */
 .right{
-height: 500px;
+height: 750px;
 float: left;
-background-color: lightgreen;
+background-color: teal;
 width: 70%;
 text-align: center;
 }
@@ -35,7 +35,20 @@ text-align: center;
   margin-top: 50px;
 }
 
-.lowerLeft{
+.imageBox{
+  position: relative;
+  height: 250px;
+  background-color: orange;
+  width: 100%;
+}
+
+.lowerBox{
+  height: 100%;
   background-color: pink;
-  padding: 500px;
+  width: 100%;
+  display: block;
+}
+
+.img{
+  position: fixed;
 }
